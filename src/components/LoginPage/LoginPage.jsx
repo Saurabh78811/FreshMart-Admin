@@ -14,7 +14,7 @@ import freshMartLogo from "../../assets/freshmart-logo.svg";
 import { adminLoginStyles as s } from "../../assets/dummyStyles";
 
 const API_URL = (
-  import.meta.env.VITE_API_URL || "http://localhost:5000"
+  import.meta.env.VITE_API_URL || "https://freshmart-backend-nyac.onrender.com"
 ).replace(/\/$/, "");
 
 const LoginPage = () => {
